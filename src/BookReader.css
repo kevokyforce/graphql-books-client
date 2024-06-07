@@ -1,0 +1,53 @@
+.book-reader {
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #f8f9fa;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .book {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .page {
+    width: 48%;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: 'Georgia', serif;
+    line-height: 1.6;
+    text-align: justify;
+  }
+  
+  .navigation {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .navigation button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .navigation button:disabled {
+    background-color: #ddd;
+    cursor: not-allowed;
+  }
+  
+  .navigation button:hover:not(:disabled) {
+    background-color: #0056b3;
+  }
+  
